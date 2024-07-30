@@ -1,0 +1,29 @@
+.section-geral-pagina-inicial{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.div-pagina-inicial{
+  font-family: "Oswald", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+}
+
+.subtexto-pagina-inicial{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.traco {
+  width: 350px;
+  height: 4px;
+  background-color: var(--tracado-azul-claro);
+  border-radius: 10px;
+  margin: 48px 0;
+}

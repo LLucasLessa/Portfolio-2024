@@ -1,0 +1,27 @@
+
+.servicos-main{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.servicos-section{
+  text-align: center;
+}
+
+.servicos-title{
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.div-item-servicos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}

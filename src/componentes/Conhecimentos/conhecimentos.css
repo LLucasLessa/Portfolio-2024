@@ -1,0 +1,52 @@
+
+.div-geral-conhecimentos{
+  display: flex;
+  align-items: center;
+  margin-top: 128px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+  margin-bottom: 128px;
+}
+
+.div-geral-conhecimentos h2{
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 64px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.imagens-conhecimentos{
+  display: flex;
+  animation: image-slideLeft 13s linear infinite;
+  width: 148.5%;
+}
+
+.imagens-conhecimentos:hover{
+  animation-play-state: paused;
+}
+
+.imagens-conhecimentos div{
+  display: inline-block;
+  width: 150px;
+  margin: 24px 36px;
+}
+
+.imagens-conhecimentos div img{
+  width: 96px;
+  object-fit: cover;
+}
+
+@keyframes image-slideLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(-50%);
+  }
+}

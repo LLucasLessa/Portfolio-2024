@@ -1,0 +1,17 @@
+:root {
+  --background-azulEscuro: #101630;
+  --tracado-azul-claro: #62d0fd;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--background-azulEscuro);
+  color: #FFF;
+  overflow-x: hidden;
+}
+

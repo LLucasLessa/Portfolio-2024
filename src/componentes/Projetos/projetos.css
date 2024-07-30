@@ -1,0 +1,17 @@
+
+.projetos-section{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px auto;
+  font-family: "Inter", sans-serif;
+}
+
+.projetos-titulo{
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 36px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
