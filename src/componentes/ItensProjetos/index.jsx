@@ -10,7 +10,7 @@ const ItensProjetos = (props) => {
         <h3>{props.titulo}</h3>
         <p>{props.descricao}</p>
         <div>
-          <img className={`imagem-icons ${props.nodejs} `} src={'./public/img/icons/nodejs-48.png'} />
+          <img className={`imagem-icons ${props.nodejs} `} src={'../public/img/icons/nodejs-48.png'} />
           <img className={`imagem-icons ${props.html} `} src={'./public/img/icons/html-48.png'} />
           <img className={`imagem-icons ${props.css} `} src={'./public/img/icons/css-48.png'} />
           <img className={`imagem-icons ${props.javascript} `} src={'./public/img/icons/javascript-48.png'} />
